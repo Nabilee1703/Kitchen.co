@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul, ol{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+body {
+    padding-top: 100px;
+    font-family: 'Rubik', sans-serif;
+    background-color: white;
+}
+
+/* navbar */
+.navbar {
+    padding: 1rem 1.6rem 0.7rem 1.6rem;
+    background-color: white;
+}
+
+.nav-item {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.btn {
+    transition: ease-in 0.1s;
+    font-weight: 700;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+.navbar .btn {
+    font-size: 16px;
+    margin: 5px;
+    width: 100%;
+}
+
+.btn-dark:hover {
+    background-color: white;
+    color: black;
+}
+
+.nav-item:hover {
+    transform: translateY(3px);
+    border-bottom: 2px solid salmon;
+}
+.dropdown-item{
+    font-weight: 700;
+}
+.dropdown-menu h6{
+    font-size: 14px;
+}
+.dropdown-menu li:hover{
+    background-color: #F8F6F4;
+}
+.dropdown-menu li a:hover{
+    transition:ease-in 0.15s;
+    background-color: transparent;
+    transform:translateX(8px);
+}
+.dropdown:hover {
+    border-bottom: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    border-bottom: 2px solid salmon;
+    display: inline-block;
+}
+
+/* first-sec */
+#first-sec-1 h1 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+#first-sec-1 h5 {
+    font-size: 16px;
+}
+
+#first-sec-1 h6:first-child {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#first-sec-1 h6 {
+    font-size: 14px;
+    font-weight: 100;
+    color: #212529;
+}
+
+#first-sec-1 .btn-danger {
+    background-color: #ED553B;
+    border-color: #ED553B;
+    font-size: 18px;
+    padding: 12px 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#first-sec-1 .btn-danger:hover {
+    background-color: white;
+    color: #ED553B;
+    border-color: #ED553B;
+}
+
+#first-sec-2 {
+    margin: 80px 0px 0px 0px;
+}
+
+#first-sec-2 img {
+    width: 100%;
+    padding-bottom: 10%;
+    padding-top: 2%;
+}
+
+#first-sec-2 div:first-child {
+    border-bottom: solid 1.5px #dad8d8;
+    border-right: none;
+    margin-bottom: 8%;
+}
+
+/* second-sec */
+.second-sec{
+    background-color: #F8F6F4;
+    padding: 50px 30px 10px 30px;
+}
+.second-sec ul li{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.second-sec ul li p{
+    font-size: small;
+    color: #807e7e;
+}
+.second-sec ul li img{
+    filter: grayscale(1);
+    padding-bottom: 0.5rem;
+}
+
+/* third-sec */
+.third-sec{
+    margin: 90px 0px 90px 0px;
+}
+
+#fontsize h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+#fontsize h5 {
+    font-size: 16px;
+    padding: 0 2rem;
+}
+
+#fontsize h6{
+    font-size: 15px;
+    font-weight: 700;
+}
+.left-pic{
+    width: 300px;
+    z-index: 50;
+    margin: 50px 0 0 -75px;
+}
+.main-pic{
+    width: 100%;
+    z-index: 100;
+}
+.right-part {
+    width: 180px;
+    padding: 50px 0 0 20px;
+    font: 700 15px 'Architects Daughter', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* fourth-sec */
+.fourth-sec{
+    background-color: #F8F6F4;
+}
+
+.fourth-sec h2{
+    padding: 4rem 2rem;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+/* fifth-sec */
+.fifth-sec img{
+    margin: 0 auto;
+    width: 90%;
+    padding: 0 3%;
+}
+.link a{
+  color: #ED553B;
+  font-weight: bolder;
+}
+.link :hover{
+    text-decoration: none;
+}
+.rightarrow{
+    color: #ED553B;
+    transition: transform 500ms;
+}
+
+.link:hover .rightarrow{
+    transform: translateX(8px);
+}
+
+/* sixth-sec */
+.sixth-sec{
+    margin: 20% 3%;
+    padding: 2rem 2rem 0 2rem;
+    border: solid 1px #E8E8E8;
+    border-radius: 5px;
+}
+.sixth-sec p{
+    padding-top: 10px;
+    font-size: 16px;
+}
+.sixth-sec div{
+    margin-top: -80px;
+}
+
+/* footer */
+footer {
+    padding: 30px 0 50px 0;
+}
+.mainfooter{
+    border-bottom: solid 1px #E8E8E8 ;
+    margin-bottom: 10px;
+}
+.mainfooter div h6{
+    font-weight: 600;
+}
+.mainfooter div ul{
+   line-height: 2.3rem;
+   padding-bottom: 30px;
+}
+.mainfooter div ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 100;
+    border-bottom:none;
+   
+}
+.mainfooter div ul li a:hover{
+    color: black;
+    border-bottom:coral solid 1px;
+ }
+.mainfooter div:first-child{
+    padding: 0 60px;
+}
+.underfooter span{
+    font-size: 14px;
+    font-weight: 100;
+}
+.underfooter span a{
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+/* responsive for middle screen size*/
+@media(min-width:768px) {
+  
+    #first-sec-2 img {
+        width: 100%;
+        padding:2% 5% 0% 5%;
+    }
+
+    #first-sec-2 div:first-child{
+        border-right: solid 1.5px #dad8d8;
+        border-bottom: none;
+    }
+    .second-sec h6 .fourth-sec h2{
+        font-size: 22px;
+    }
+    .fifth-sec img{
+        margin: 0 auto;
+        width:70%;
+    }
+    .sixth-sec{
+        margin: 10% 10%;
+        padding: 2rem 3rem;
+    }
+    .blockquote p{
+       font-size: 24px;
+    }
+}
+/* responsive for large screen size*/
+@media(min-width: 992px) {
+    .header {
+        justify-content: space-around;
+    }
+    .navbar {
+        padding: 2rem 1.6rem 1rem 1.6rem;
+    }
+    .navbar .btn {
+        width: fit-content;
+    }
+    .action {
+        display: flex;
+        justify-content: end;
+    }
+    .first-sec{
+        margin-bottom: 5rem;
+        margin-top: 5rem;
+    }
+    #first-sec-1 .btn {
+        padding: 12px 35px;
+    }
+    #first-sec-1 h1 {
+        font-size: 72px;
+    }
+    #first-sec-1 h5 {
+        font-size: 24px;
+    }
+    #first-sec-2 {
+        margin: 120px 0px 20px 0px;
+    }
+    #first-sec-2 img {
+        width: 100%;
+        padding: 5% 7% 0% 7%;
+    }
+    .second-sec h6{
+        font-size: 22px;
+    }
+    
+    #fontsize h1 {
+        font-size: 48px;
+        font-weight: 700;
+        margin-bottom: 22px;
+    }
+    #fontsize h5 {
+        font-size: 22px;
+        padding: 0 9rem;
+    }
+    
+    #fontsize h6{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .third-sec{
+       margin: 150px 0px 90px 0px;
+    }
+    .main-pic{
+        width: 80%;
+    }
+    .fourth-sec h2{
+        padding: 4rem 15rem;
+        font-weight: 600;
+        font-size: 32px;
+    }
+    .fifth-sec img{
+        width: 50%;
+    }
+    .fifth-sec #sec3 h5,.fifth-sec ul li{
+    font-size: 20px;
+    line-height: 2rem;
+    }
+    .mainfooter div:first-child{
+        padding: 0 0 20px 0;
+    }
+}
+
+@media(min-width: 1200px) {
+    .main-pic{
+        margin-left: -20px;
+    }
+}
